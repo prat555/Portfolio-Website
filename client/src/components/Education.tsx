@@ -99,7 +99,7 @@ export default function Education() {
                 <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">Completed June 2021</p>
                 <p className="text-lg font-semibold text-gray-700 dark:text-gray-300">Grade: 86%</p>
                 <p className="text-gray-600 dark:text-gray-400 mt-2">
-                  Coursework: Physics, Chemistry, Mathematics, Computer Science
+                  Coursework: Physics, Chemistry, Mathematics, Computer Science, English
                 </p>
               </motion.div>
             </div>
