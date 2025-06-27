@@ -52,6 +52,8 @@ export default function Navigation() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             className="text-xl font-bold text-primary dark:text-white"
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            style={{ cursor: 'pointer' }}
           >
             Pratyush Goutam
           </motion.div>
