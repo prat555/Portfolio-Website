@@ -109,7 +109,7 @@ export default function Hero() {
               Download Resume
             </motion.a>
             <motion.a
-              href="mailto:pratg5935@gmail.com"
+              href="mailto:pratyush8600@gmail.com"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="inline-flex items-center gap-2 bg-accent text-white px-8 py-3 rounded-full hover:bg-accent/90 transition-all duration-300"
