@@ -1,4 +1,4 @@
-## Overview ✨
+## Overview
 
 This is a full-stack portfolio application built with a modern React frontend and Express.js backend. The application showcases a personal portfolio for Pratyush Goutam, a Full Stack Developer, featuring sections for skills, projects, education, and contact functionality. The stack uses TypeScript throughout, shadcn/ui for components, Tailwind CSS for styling, and includes database integration capabilities with Drizzle ORM and PostgreSQL.
 
