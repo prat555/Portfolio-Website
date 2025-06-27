@@ -3,9 +3,9 @@ import profileImage from "@/assets/profile.jpg";
 
 export default function Hero() {
   const socialLinks = [
-    { icon: "fab fa-linkedin", href: "#", label: "LinkedIn" },
-    { icon: "fab fa-github", href: "#", label: "GitHub" },
-    { icon: "fas fa-code", href: "#", label: "LeetCode" },
+    { icon: "fab fa-linkedin", href: "https://www.linkedin.com/in/pratyush-goutam-387837250", label: "LinkedIn" },
+    { icon: "fab fa-github", href: "https://github.com/prat555", label: "GitHub" },
+    { icon: "fas fa-code", href: "https://leetcode.com/u/pratg555/", label: "LeetCode" },
   ];
 
   return (
