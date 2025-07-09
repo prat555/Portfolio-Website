@@ -38,7 +38,7 @@ export default function Projects() {
       technologies: ["React", "Vite", "TypeScript", "OpenAI API", "PostgreSQL"],
       links: {
         github: "https://github.com/prat555/EcoVision",
-        live: "https://ecovision-5ope.onrender.com/",
+        live: "https://ecovisionscan.onrender.com/",
       },
       gradient: "from-purple-400 to-pink-500",
       icon: "fas fa-camera",
