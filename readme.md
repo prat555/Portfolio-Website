@@ -10,7 +10,6 @@ The application follows a monorepo structure with clear separation between clien
 - **Backend**: Express.js server with TypeScript
 - **Styling**: Tailwind CSS with shadcn/ui component library
 - **State Management**: TanStack Query for server state management
-- **Deployment**: Configured for Replit autoscale deployment
 
 ## Key Components
 
