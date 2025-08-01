@@ -13,37 +13,38 @@ interface SkillCategory {
 
 export default function Skills() {
   const skillCategories: SkillCategory[] = [
-    {
-      title: "Programming Languages",
-      icon: "fas fa-code",
-      skills: [
-        { name: "Python", icon: "fab fa-python" },
-        { name: "JavaScript", icon: "fab fa-js-square" },
-        { name: "TypeScript", icon: "fab fa-js-square" },
-        { name: "Java", icon: "fab fa-java" },
-        { name: "C", icon: "fas fa-code" },
-        { name: "C++", icon: "fas fa-code" },
-        { name: "Go", icon: "fas fa-code" },
-        { name: "SQL", icon: "fas fa-database" },
-      ],
-    },
-    {
-      title: "Technologies & Frameworks",
-      icon: "fas fa-cogs",
-skills: [
-        { name: "React.js", icon: "fab fa-react" },
-        { name: "React Native", icon: "fab fa-react" },
-        { name: "Next.js", icon: "fas fa-server" }, 
-        { name: "Node.js", icon: "fab fa-node-js" },
-        { name: "Vite", icon: "fas fa-bolt" },
-        { name: "Tailwind CSS", icon: "fas fa-palette" },
-        { name: "Git", icon: "fab fa-git-alt" },
-        { name: "MongoDB", icon: "fas fa-leaf" },
-        { name: "MySQL", icon: "fas fa-database" },
-        { name: "PostgreSQL", icon: "fas fa-database" },
-        { name: "Redis", icon: "fas fa-memory" },
-    },
-  ];
+  {
+    title: "Programming Languages",
+    icon: "fas fa-code",
+    skills: [
+      { name: "Python", icon: "fab fa-python" },
+      { name: "JavaScript", icon: "fab fa-js-square" },
+      { name: "TypeScript", icon: "fab fa-js-square" },
+      { name: "Java", icon: "fab fa-java" },
+      { name: "C", icon: "fas fa-code" },
+      { name: "C++", icon: "fas fa-code" },
+      { name: "Go", icon: "fas fa-code" },
+      { name: "SQL", icon: "fas fa-database" },
+    ],
+  },
+  {
+    title: "Technologies & Frameworks",
+    icon: "fas fa-cogs",
+    skills: [
+      { name: "React.js", icon: "fab fa-react" },
+      { name: "React Native", icon: "fab fa-react" },
+      { name: "Next.js", icon: "fas fa-server" }, 
+      { name: "Node.js", icon: "fab fa-node-js" },
+      { name: "Vite", icon: "fas fa-bolt" },
+      { name: "Tailwind CSS", icon: "fas fa-palette" },
+      { name: "Git", icon: "fab fa-git-alt" },
+      { name: "MongoDB", icon: "fas fa-leaf" },
+      { name: "MySQL", icon: "fas fa-database" },
+      { name: "PostgreSQL", icon: "fas fa-database" },
+      { name: "Redis", icon: "fas fa-memory" },
+    ],
+  },
+];
 
   return (
     <section id="skills" className="py-20 bg-gray-50 dark:bg-gray-900">
