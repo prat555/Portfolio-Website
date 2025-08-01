@@ -92,7 +92,7 @@ export default function Projects() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-primary dark:text-white mb-4">Featured Projects</h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Showcasing my latest work in web development and AI integration
+            Showcasing my latest work in web/app development and AI integration
           </p>
         </div>
 
