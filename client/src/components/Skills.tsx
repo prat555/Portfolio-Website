@@ -30,17 +30,18 @@ export default function Skills() {
     {
       title: "Technologies & Frameworks",
       icon: "fas fa-cogs",
-      skills: [
+skills: [
         { name: "React.js", icon: "fab fa-react" },
+        { name: "React Native", icon: "fab fa-react" },
+        { name: "Next.js", icon: "fas fa-server" }, 
         { name: "Node.js", icon: "fab fa-node-js" },
         { name: "Vite", icon: "fas fa-bolt" },
         { name: "Tailwind CSS", icon: "fas fa-palette" },
         { name: "Git", icon: "fab fa-git-alt" },
         { name: "MongoDB", icon: "fas fa-leaf" },
-        { name: "Redis", icon: "fas fa-memory" },
-        { name: "Kafka", icon: "fas fa-stream" },
+        { name: "MySQL", icon: "fas fa-database" },
         { name: "PostgreSQL", icon: "fas fa-database" },
-      ],
+        { name: "Redis", icon: "fas fa-memory" },
     },
   ];
 
@@ -56,7 +57,7 @@ export default function Skills() {
         >
           <h2 className="text-4xl font-bold text-primary dark:text-white mb-4">Technical Skills</h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Proficient in modern web technologies and programming languages
+            Proficient in modern web and app development technologies, along with core programming languages
           </p>
         </motion.div>
 
